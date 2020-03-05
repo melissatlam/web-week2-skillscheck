@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  height: 1300px;
+  width: 1000px;
+}
+
+header {
+  height: 70px;
+  width: 1000px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  height: 300px;
+  width: 1000px;
+  color: yellow;
+  background-color: black;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .leftnav {
+    font: 50px;
+  }
+  .rightnav {
+    float: right;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+  }
+
+  main {
+    height: 800px;
+    width: 1000px;
+  
+  }
+}
+content {
+  height: 500px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+footer {
+  height: 200px;
+  width: 1000px;
+}
+
+#pup {
+  height: 150px;
+  width: 300px;
+  float: right;
+  margin-right: 150px;
+}
+
+.title {
+  text-align: center;
+  color: yellow;
+  font-size: 60px;
+}
+
+.greenbox1,
+.greenbox2,
+.greenbox3 {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  background-color: rgb(92, 241, 229);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  display: inline-block;
+  justify-content:space-evenly;
+  margin-left:120px;
+  margin-bottom:50px;
+}
+
+.rectangle1,
+.rectangle2 {
+  height: 150px;
+  width: 320px;
+  margin: 10px;
+  background-color: rgb(241, 201, 92);
+  display: inline-block;
+  justify-content:space-around;
+  margin-left:100px;
+}
+.text {
+    margin-left:120px;
+}
+}
